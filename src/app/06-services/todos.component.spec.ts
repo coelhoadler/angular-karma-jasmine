@@ -3,8 +3,6 @@ import { TodosComponent } from './todos.component';
 import { TodoService } from './todo.service';
 import { from, empty, throwError } from 'rxjs';
 
-
-
 describe('TodosComponent', () => {
   let component: TodosComponent;
   let service: TodoService;
